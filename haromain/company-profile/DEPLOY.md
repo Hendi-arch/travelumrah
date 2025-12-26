@@ -1,4 +1,4 @@
-# Deployment Guide for Haromain Umrah Services
+# Deployment Guide for Qiswah Heritage
 
 This project is built with **Next.js** and is optimized for deployment on **Vercel**, the creators of Next.js.
 

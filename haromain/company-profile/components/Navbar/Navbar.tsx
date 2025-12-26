@@ -134,7 +134,7 @@ export default function Navbar() {
               window.scrollTo({ top: 0, behavior: 'smooth' });
               setActiveLink('');
             }}>
-              Haromain<span>.</span>
+              Qiswah Heritage<span>.</span>
             </Link>
 
             {/* Desktop Menu */}

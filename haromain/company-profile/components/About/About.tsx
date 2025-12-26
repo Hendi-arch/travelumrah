@@ -15,13 +15,13 @@ export default function About() {
           </div>
           
           <div className={styles.content}>
-            <span className={styles.label}>Who We Are</span>
+            <span className={styles.label}>About Us</span>
             <h2>Dedicated to Your Sacred Journey</h2>
             <p className={styles.lead}>
-              At Haromain, we believe that the journey to the Holy Lands is not just a trip, but a transformative spiritual milestone.
+              At Qiswah Heritage, we believe that the journey to the Holy Lands is a life-changing spiritual milestone.
             </p>
             <p className={styles.description}>
-              Founded with the vision of purifying the pilgrimage experience, we shield you from logistical burdens so your heart remains attached solely to worship. Our team of experienced guides and mutawwifs are committed to the Sunnah and dedicated to your comfort.
+              We are here to make your pilgrimage smooth and focused. We shield you from logistical burdens so your heart remains attached solely to worship. Our team of experienced guides are committed to the Sunnah and dedicated to your comfort.
             </p>
             
             <div className={styles.stats}>

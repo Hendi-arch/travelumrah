@@ -4,7 +4,7 @@ export default function Testimonials() {
   const reviews = [
     { 
       name: 'Haji Ahmad Fadillah', 
-      text: 'The experience was nothing short of spiritual excellence. From the moment we landed in Jeddah to our final tawaf, Haromain’s team was there ensuring our comfort. The proximity of the hotel to the Haram made late-night prayers so accessible.', 
+      text: 'The experience was nothing short of spiritual excellence. From the moment we landed in Jeddah to our final tawaf, Qiswah Heritage’s team was there ensuring our comfort. The proximity of the hotel to the Haram made late-night prayers so accessible.', 
       role: 'Umrah Executive Pilgrim',
       image: '/avatar_ahmad.png',
       rating: 5
@@ -18,7 +18,7 @@ export default function Testimonials() {
     },
     { 
       name: 'Ustadz Hendra Saputra', 
-      text: 'I have led many groups over the years, but the logistical precision of Haromain Services is a cut above. The VIP tent services in Mina were exceptional, allowing us to focus entirely on our worship without worldly distractions.', 
+      text: 'I have led many groups over the years, but the logistical precision of Qiswah Heritage Services is a cut above. The VIP tent services in Mina were exceptional, allowing us to focus entirely on our worship without worldly distractions.', 
       role: 'Religious Guide',
       image: '/avatar_hendra.png',
       rating: 5
@@ -36,8 +36,8 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className={styles.testimonials}>
       <div className="container">
-        <h2 className={styles.title}>Voices from the Holy Land</h2>
-        <p className={styles.subtitle}>Stories of peace, comfort, and spiritual fulfillment from our valued pilgrims.</p>
+        <h2 className={styles.title}>Stories from Our Pilgrims</h2>
+        <p className={styles.subtitle}>Real experiences from our jamaah.</p>
         
         <div className={styles.grid}>
           {reviews.map((r, i) => (

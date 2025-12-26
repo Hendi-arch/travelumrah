@@ -10,19 +10,19 @@ export default function Hero() {
       <div className={styles.content}>
         <span className={styles.label}>Your Trust, Our Obligation</span>
         <h1 className={styles.headline}>
-          Journey to the<br />
-          <span className={styles.highlight}>Sacred Lands</span>
+          Your Journey to the<br />
+          <span className={styles.highlight}>Holy Land</span>
         </h1>
         <p className={styles.subheadline}>
-          Embark on a spiritual journey with unparalleled comfort. From visa processing to premium accommodations, we handle every detail so you can focus entirely on your worship.
+          Embark on a worry-free spiritual journey. From visa processing to premium accommodations, we handle every detail so you can focus entirely on your worship.
         </p>
         
         <div className={styles.actions}>
           <Link href="#packages" className={styles.primaryBtn}>
-            Find Your Package
+            View Packages
           </Link>
           <Link href="#contact" className={styles.secondaryBtn}>
-            Free Consultation
+            Chat with Us
           </Link>
         </div>
 

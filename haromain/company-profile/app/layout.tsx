@@ -18,7 +18,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: 'Haromain Umrah Services',
+  title: 'Qiswah Heritage Umrah Services',
   description: 'Experience a spiritual journey with comfort and peace.',
 };
 

@@ -7,9 +7,9 @@ export default function Footer() {
       <div className="container">
         <div className={styles.content}>
           <div className={styles.brand}>
-            <h3>Haromain.</h3>
+            <h3>Qiswah Heritage.</h3>
             <p className={styles.tagline}>
-              Facilitating your spiritual journey with grace, comfort, and peace of mind.
+              Your trusted partner for a peaceful Umrah.
             </p>
           </div>
           
@@ -34,7 +34,7 @@ export default function Footer() {
           <div className={styles.column}>
             <h4>Contact</h4>
             <div className={styles.links}>
-              <a href="mailto:info@haromain.com">info@haromain.com</a>
+              <a href="mailto:info@qiswahheritage.com">info@qiswahheritage.com</a>
               <a href="tel:+1234567890">+1 (234) 567-890</a>
               <p>Jakarta, Indonesia</p>
             </div>
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>&copy; {new Date().getFullYear()} Haromain Travel. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Qiswah Heritage Travel. All rights reserved.</p>
           <div className={styles.links} style={{ flexDirection: 'row', gap: '1rem' }}>
             <Link href="#">Privacy Policy</Link>
             <Link href="#">Terms of Service</Link>

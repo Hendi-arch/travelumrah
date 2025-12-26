@@ -6,9 +6,9 @@ export default function Contact() {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.info}>
-            <h2>Start Your Journey</h2>
+            <h2>Let's Start Your Journey</h2>
             <p className={styles.desc}>
-              Ready to embark on a transformative experience? Reach out to us, and we'll handle the rest.
+              Ready to go to Baitullah? Chat with us today.
             </p>
             
             <div className={styles.details}>
@@ -18,7 +18,7 @@ export default function Contact() {
               </div>
               <div className={styles.detailItem}>
                 <h4>Contact</h4>
-                <p>info@haromain.com<br/>+62 21 555 0123</p>
+                <p>info@qiswahheritage.com<br/>+62 21 555 0123</p>
               </div>
             </div>
 

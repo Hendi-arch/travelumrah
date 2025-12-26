@@ -58,8 +58,8 @@ export default function Gallery() {
     <section id="gallery" className={styles.gallery}>
       <div className="container">
         <header className={styles.header}>
-          <h1>Moments of Devotion</h1>
-          <p>A visual journey through the Haromain experience.</p>
+          <h1>Our Gallery</h1>
+          <p>A glimpse of the journey.</p>
         </header>
 
         <div className={styles.grid}>
