@@ -1,0 +1,179 @@
+.packages {
+  padding: var(--spacing-2xl) 0;
+  background-color: #F8FAFC;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+  display: block;
+  margin-bottom: var(--spacing-sm);
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--primary);
+}
+
+.header p {
+  color: var(--text-muted);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--spacing-lg);
+  align-items: stretch;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 520px;
+  /* Reset flex behavior */
+  flex-grow: 0;
+  flex-shrink: 0;
+  /* Default Mobile: 1 per row */
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    /* Tablet: 2 per row
+       Formula: (100% - 1 gap of 2rem) / 2
+       = 50% - 1rem
+    */
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    /* Desktop: Max 3 per row
+       Formula: (100% - 2 gaps of 2rem) / 3
+       = 33.333% - 1.333rem
+    */
+    width: calc(33.333% - 1.333rem);
+  }
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.01);
+}
+
+.highlight {
+  border-color: var(--accent);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--accent);
+  color: white;
+  padding: 0.25rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom-left-radius: var(--radius-md);
+}
+
+.cardHeader {
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 1px solid var(--border);
+}
+
+.type {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.cardHeader h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-family: var(--font-serif);
+}
+
+.perPerson {
+  font-size: 1rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  font-family: var(--font-sans);
+}
+
+.features {
+  list-style: none;
+  margin-bottom: var(--spacing-xl);
+}
+
+.features li {
+  margin-bottom: 0.75rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+}
+
+.features li::before {
+  content: "•";
+  color: var(--accent);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5rem;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 0.8rem;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  transition: all 0.2s;
+  margin-top: auto;
+}
+
+.highlight .button {
+  background-color: var(--primary);
+  color: var(--surface);
+}
+
+.button:hover {
+  background-color: var(--primary);
+  color: var(--surface);
+}
