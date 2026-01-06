@@ -157,14 +157,15 @@ export default function ArticleDetailPage({ params }: { params: Promise<{ id: st
                       Butuh saran medis profesional? Tim dokter spesialis kami siap membantu Anda.
                     </p>
                     <div className="flex flex-wrap justify-center gap-5">
-                      <Link href="/#book">
-                        <Button 
-                          size="lg" 
-                          className="gap-2 bg-white text-primary hover:bg-blue-50 px-8 py-7 rounded-xl font-bold text-lg shadow-xl hover:scale-105 transition-all duration-300"
-                        >
-                          <Calendar className="h-6 w-6" />
-                          Buat Janji Temu
-                        </Button>
+                      <Link 
+                        href="/#book"
+                        className={buttonVariants({
+                          size: "lg",
+                          className: "gap-2 bg-white text-primary hover:bg-blue-50 px-8 py-7 rounded-xl font-bold text-lg shadow-xl hover:scale-105 transition-all duration-300"
+                        })}
+                      >
+                        <Calendar className="h-6 w-6" />
+                        Buat Janji Temu
                       </Link>
                       <Button 
                         size="lg" 

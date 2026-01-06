@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Calendar, User, ArrowRight, Mail, Stethoscope, Bell } from "lucide-react";
 import { articles } from "@/lib/articles";
 
@@ -136,11 +136,12 @@ export default function NewsPage() {
             <Stethoscope className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-bold text-slate-900 mb-2">Konsultasi dengan Dokter Spesialis</h3>
             <p className="text-slate-600 mb-4">Lihat profil lengkap dokter kami dan jadwal praktik mereka.</p>
-            <Link href="/#doctors">
-              <Button variant="outline" className="gap-2">
-                Lihat Tim Dokter
-                <ArrowRight className="h-4 w-4" />
-              </Button>
+            <Link 
+              href="/#doctors"
+              className={buttonVariants({ variant: "outline", className: "gap-2" })}
+            >
+              Lihat Tim Dokter
+              <ArrowRight className="h-4 w-4" />
             </Link>
           </Card>
 
@@ -148,11 +149,12 @@ export default function NewsPage() {
             <Calendar className="h-12 w-12 text-primary mx-auto mb-4" />
             <h3 className="text-xl font-bold text-slate-900 mb-2">Booking Online Tersedia</h3>
             <p className="text-slate-600 mb-4">Hindari antrean panjang dengan sistem booking online kami.</p>
-            <Link href="/#book">
-              <Button className="gap-2">
-                Buat Janji Temu Sekarang
-                <ArrowRight className="h-4 w-4" />
-              </Button>
+            <Link 
+              href="/#book"
+              className={buttonVariants({ className: "gap-2" })}
+            >
+              Buat Janji Temu Sekarang
+              <ArrowRight className="h-4 w-4" />
             </Link>
           </Card>
         </div>

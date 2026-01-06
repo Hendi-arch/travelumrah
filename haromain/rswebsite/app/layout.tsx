@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className="scroll-smooth">
-      <body className={`${inter.className} bg-slate-50 text-slate-900 overflow-x-hidden w-full relative`}>
+    <html lang="id" className="scroll-smooth overflow-x-hidden">
+      <body className={`${inter.className} bg-slate-50 text-slate-900 overflow-x-hidden w-full relative antialiased`}>
         <Header />
         <main className="w-full relative">
             {children}
