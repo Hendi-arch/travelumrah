@@ -1,0 +1,78 @@
+UI/UX REDESIGN PROMPT – RSUD KEBAYORAN LAMA WEBSITE
+Target URL: https://rsudkebayoranlama.co.id/
+
+OBJECTIVE
+Redesign the website into a modern, minimalist, and visually calming hospital experience. The UI must feel professional, trustworthy, and patient-centric while being clean, eye-catching, and easy to navigate.
+
+DESIGN DIRECTION
+
+Modern minimalist design with strong visual hierarchy
+Calm, clean, medical-grade aesthetic
+High usability for patients, families, and elderly users
+Mobile-first and fully responsive
+
+VISUAL AESTHETIC
+
+Use generous white space to reduce visual clutter
+Neutral base colors (white, light gray) with soft medical accents (blue or green)
+Avoid excessive gradients, shadows, and decorative elements
+Consistent spacing, padding, and alignment across all sections
+
+TYPOGRAPHY
+
+Sans-serif, highly readable font
+Clear hierarchy: large bold headings, clean body text
+Comfortable line height for long reading
+Avoid mixing too many font styles
+
+LAYOUT & STRUCTURE
+
+Simplify navigation to core actions (Home, About, Services, Doctors, Appointment, Contact)
+Use card-based layout for services, departments, and doctors
+Group related information into clear sections
+Avoid long text blocks; use short paragraphs and bullet points
+
+HERO SECTION
+
+Clean hero with subtle background image or gradient
+One clear headline and short supporting text
+One primary CTA only (e.g., Book Appointment / Emergency Info)
+Sticky header for quick navigation
+
+INTERACTIONS & TRANSITIONS
+
+Smooth scrolling between sections
+Subtle fade-in or slide-up animations on scroll
+Soft hover effects on buttons and cards
+No flashy or distracting animations
+
+BUTTONS & CTA
+
+Consistent button style across the site
+Solid accent color for primary CTA
+Clear, action-oriented labels
+Emergency CTA should be highly visible and accessible
+
+IMAGERY & ICONS
+
+Use real hospital photos where possible
+Clean, outline-style icons for services and features
+Avoid repetitive stock images
+Images should support content, not dominate it
+
+MOBILE EXPERIENCE
+
+Mobile-first design
+Collapsible sections for long lists
+Large touch targets for buttons
+Simple, thumb-friendly navigation
+
+ACCESSIBILITY
+
+High color contrast for readability
+Clear text sizes for elderly users
+Keyboard and screen-reader friendly
+Avoid dense layouts
+
+EXPECTED RESULT
+A modern, minimalist, and calming hospital website that feels professional, trustworthy, and easy to use. The design should prioritize clarity, patient comfort, and fast access to critical information.
